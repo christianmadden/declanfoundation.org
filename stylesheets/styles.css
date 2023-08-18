@@ -1,0 +1,52 @@
+
+/* #274b40 */
+
+html, body, section, div, h1, footer { margin: 0; padding: 0; }
+
+html
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  xbackground: url(../images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body
+{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #274b40;
+  color: #fff;
+  font-family: "Gill Sans", "Helvetica Neue", Helvetica, Arial, serif;
+}
+
+#container
+{
+  height: 100%;
+  width: 803px;
+  margin: 100px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+h1
+{
+  width: 800px;
+  height: 270px;
+  margin-bottom: 50px;
+  background: url(../images/reverse.png);
+  background-size: 800px 270px;
+  background-repeat: no-repeat;
+  text-indent: -7000px;
+}
+
+p
+{
+  font-size: 110%;
+  font-weight: 200;
+}
